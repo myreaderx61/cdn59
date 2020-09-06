@@ -1,0 +1,354 @@
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML lang="en">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>CXSECURITY.COM Free Security List</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="keywords" content="cxsecurity, cxsec, cvemap,  cx, cxsecurity.com, dorks, CVE, security, bugtraq, WLB2, Database, bug, bugs, list, WLB, CVEMAP, DORKS, CVSS2, CWE, MAP, exploit, fuzzing, cifrex, security list, bugtraq, World Laboratory of Bugtraq, CWE Dictionary, Description, Summary, Scope, Example">
+<META name="description" content="CXSECURITY (Independent information about security) is a huge collection of information on data communications safety. Its main objective is to inform about errors in various applications. ">
+<META name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<META name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="/manifest.json?b">
+<LINK rel="Icon" href="https://cert.cx/cxstatic/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="https://cert.cx/cxstatic/js/m-jq.js?T"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script type="text/javascript" src="https://cert.cx/cxstatic/js/m.js?V"></script>
+<link href="https://cert.cx/cxstatic/css/b.css?G" rel="stylesheet" type='text/css'/>
+</HEAD>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-39628967-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script><BODY ng-app="ui.bootstrap.demo">
+<div class="navbar navbar-default navbar-fixed-top" id="frezz">
+<div class="container"><div class="navbar-header"><a class="navbar-brand" href="https://cxsecurity.com/"><IMG SRC="https://cert.cx/cxstatic/images/12018/cxseci.png" width="150" height="20" ALT="Home Page"></a><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="navbar-collapse collapse" id="navbar-main" ><ul class="nav navbar-nav">
+          <li class="active"><a href="https://cxsecurity.com/">Home</a></li><li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bugtraq<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="https://cxsecurity.com/wlb/">Full List</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/bugs/">Only Bugs</a></li>
+<li><a href="https://cxsecurity.com/tricks/">Only Tricks</a></li>
+<li><a href="https://cxsecurity.com/exploit/">Only Exploits</a></li>
+<li><a href="https://cxsecurity.com/dorks/">Only Dorks</a></li>
+<li><a href="https://cxsecurity.com/cvelist/">Only CVE</a></li>
+<li><a href="https://cxsecurity.com/cwelist/">Only CWE</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/bogus/">Fake Notes</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/best/1/">Ranking</a></li>
+
+</ul></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CVEMAP<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="https://cxsecurity.com/cvemap/">Full List</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cvevendors/">Show Vendors</a></li>
+<li><a href="https://cxsecurity.com/cveproducts/">Show Products</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/allcwe/">CWE Dictionary</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cve/">Check CVE Id </a></li>
+<li><a href="https://cxsecurity.com/cwe/">Check CWE Id</a></li>
+</ul></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Search<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="https://cxsecurity.com/search/">Bugtraq</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/search/cve/">CVEMAP</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/search/author/">By author</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cve/">CVE Id</a></li>
+<li><a href="https://cxsecurity.com/cwe/">CWE Id</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cvevendors/">By vendors</a></li>
+<li><a href="https://cxsecurity.com/cveproducts/">By products</a></li>
+</ul></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">RSS<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="https://cxsecurity.com/wlb/rss/all/">Bugtraq</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cverss/fullmap/">CVEMAP</a></li>
+<li><a href="https://cxsecurity.com/cveproducts/">CVE Products</a></li>
+    <li class="divider"></li>
+<li><a href="https://cxsecurity.com/wlb/rss/vulnerabilities/">Bugs</a></li>
+<li><a href="https://cxsecurity.com/wlb/rss/exploit/">Exploits</a></li>
+<li><a href="https://cxsecurity.com/wlb/rss/dorks/">Dorks</a></li>
+</ul></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="http://cifrex.org/">cIFrex</a></li>
+<li class="divider"></li>
+<li><a href="https://www.facebook.com/cxsec">Facebook</a></li>
+<li><a href="https://twitter.com/cxsecurity">Twitter</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/donate/">Donate</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/wlb/about/">About</a></li>
+</ul></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="https://cxsecurity.com/wlb/add/">Submit</a></li>
+</ul></div></div></div>
+<div id="general"><TABLE width="100%"><TR><TD width="6%"></TD><TD id="boki"></TD><TD id='glowna'><CENTER>
+<script>
+    var app = angular.module('ui.bootstrap.demo', []); app.controller('dashBoard', function($scope) {
+        myObj = {"iyest":13,"imont":160,"icurr":32,"itotal":35867,"hackers":[{"id":1,"name":"ERa","nameDis":"ERa","cc":"https:\/\/cxsecurity.com\/images\/flags\/ir.png","ccurl":"IR"},{"id":2,"name":"Garuda+Security+Hacker","nameDis":"Garuda Security Hacker","cc":"https:\/\/cxsecurity.com\/images\/flags\/id.png","ccurl":"ID"},{"id":3,"name":"hyd3sec","nameDis":"hyd3sec","cc":"https:\/\/cxsecurity.com\/images\/flags\/us.png","ccurl":"US"},{"id":4,"name":"Gh05t666nero","nameDis":"Gh05t666nero","cc":"https:\/\/cxsecurity.com\/images\/flags\/id.png","ccurl":"ID"}],"cyest":1,"cmont":1151,"ccur":349,"ctotal":147729,"cve":[{"id":1,"name":"opensis","nameDis":"opensis","url":"https:\/\/cxsecurity.com\/cveproduct\/21653\/23618\/opensis\/","count":"28"},{"id":2,"name":"vbulletin","nameDis":"vbulletin","url":"https:\/\/cxsecurity.com\/cveproduct\/8125\/1314\/vbulletin\/","count":"10"},{"id":3,"name":"ecommerce-codeigniter-bootstrap","nameDis":"ecommerce-c...","url":"https:\/\/cxsecurity.com\/cveproduct\/21652\/47132\/ecommerce-codeigniter-bootstrap\/","count":"8"},{"id":4,"name":"android","nameDis":"android","url":"https:\/\/cxsecurity.com\/cveproduct\/1351\/15290\/android\/","count":"7"}],"ccom":[{"id":1,"title":"\"Design by Perfect Software\" Password SQL Injection vulnerability","url":"https:\/\/cxsecurity.com\/issue\/WLB-2020080069","auth":"lmao","text":"Hey wannabe hackers?\nCan you tell me what kind of syntax\/dialect is the  'or 1=1 or ''=' ? Yes you are right! This is part of SQL language syntax. So what happens here is login form being prone to injection of SQL dialec...","comCountry":"https:\/\/cert.cx\/cxstatic\/images\/flags\/pl.png","cc":"PL"}],"vote":[{"id":1,"pos":"3","neg":"0","name":"chiangmaizone Design Default Admin Password","nameSh":"chiangmaizone Design Default Admin Password","url":"https:\/\/cxsecurity.com\/issue\/WLB-2020080122"},{"id":2,"pos":"2","neg":"0","name":"Asfaa - SQL Injection vulnerability","nameSh":"Asfaa - SQL Injection vulnerability","url":"https:\/\/cxsecurity.com\/issue\/WLB-2020090006"},{"id":3,"pos":"1","neg":"0","name":"HIMALAYA - SQL Injection vulnerability","nameSh":"HIMALAYA - SQL Injection vulnerability","url":"https:\/\/cxsecurity.com\/issue\/WLB-2020080131"},{"id":0,"pos":"1","neg":"-2","name":"E-Learning Madrasah 2.0 - Arbitary File Upload","nameSh":"E-Learning Madrasah 2.0 - Arbitary File Uploa...","url":"https:\/\/cxsecurity.com\/issue\/WLB-2020080121"}]};
+        $scope.x = myObj;
+    });
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<IMG SRC="https://cert.cx/cxstatic/images/0br0/glN.png" ALT="Welcome to cxsecurity. enjoy" width="75%"></CENTER>
+<div class="row" ng-controller="dashBoard">
+<div class="col-xs-6 col-sm-7 col-md-3"><div class="card border-success" style="max-width: 20rem;">
+<div class="card-body text-dark">
+<h5 class="card-title"><span class="glyphicon glyphicon-globe"></span> Bugtraq Stats</h5>
+<p class="card-text text-xs-center">Yesterday: <U>{{ x.iyest }}</U><BR>Last month: <U>{{ x.imont }}</U><BR>Current month: <U>{{ x.icurr }}</U><BR>Total: <U>{{ x.itotal }}</U></p></div></div></div>
+<div class="col-xs-6 col-sm-5 col-md-3"><div class="card border-success" style="max-width: 20rem;">
+<div class="card-body text-dark">
+<h5 class="card-title"><span class="glyphicon glyphicon-fire"></span> <A HREF='https://cxsecurity.com/best/1/' style="text-decoration: none" TITLE='Best harckers ranking'>Best Hackers:</A></h5><span class="card-text" ng-repeat="te in x.hackers  | orderBy:predicate:reverse"><B>{{ te.id }}.</B></B>&nbsp;<A HREF='https://cxsecurity.com/author/{{te.name}}/1/' style="text-decoration: none" TITLE='{{te.nameDis}}'>{{te.nameDis}} </A> <A HREF='https://cxsecurity.com/best/{{te.ccurl}}/' TITLE='Check for the {{te.ccurl}}'><IMG ng-src="{{te.cc}}" src='' WIDTH="20" HEIGHT="12" ALT="" style="text-decoration: none"></A><BR></span>
+</div></div></div>
+<div class="clearfix visible-xs-block"></div>
+<div class="col-xs-6 col-sm-7 col-md-3"><div class="card border-success" style="max-width: 20rem;">
+<div class="card-body text-dark">
+<h5 class="card-title"><span class="glyphicon glyphicon-refresh"></span> CVE database</H5>
+<p class="card-text">Last Update: <U>{{ x.cyest }}</U><BR> Last month: <U>{{ x.cmont }}</U><BR>Current month: <U>{{ x.ccur }}</U><BR>Total CVE: <U>{{ x.ctotal }}</U></p>
+</div></div></div>
+<div class="col-xs-6 col-sm-5 col-md-3"><div class="card border-success" style="max-width: 20rem;">
+<div class="card-body text-dark">
+<h5 class="card-title"><span class="glyphicon glyphicon-eye-open"></span> Affected</H5>
+<span class="card-text" ng-repeat="te in x.cve  | orderBy:predicate:reverse"><A HREF='{{te.url}}' style="text-decoration: none"><B>{{te.id}}. {{te.nameDis}}</A></B> ({{te.count}})<BR></span>
+</div></div></div></div>
+<div class="row" ng-controller="dashBoard">
+<div class="col-xs-12 col-md-6"><div class="card border-success mb-3" style="max-width: 60rem;">
+<div class="card-body text-success">
+<h5 class="card-title"><span class="glyphicon glyphicon-comment"></span> Random comment</h5>
+<span class="card-text" ng-repeat="x in x.ccom  | orderBy:predicate:reverse"><A href='{{x.url}}' style="text-decoration: none" TITLE='{{x.title}}'><B>{{ x.title }}</B></a> <BR><FONT color='#faebd7'><span class="glyphicon glyphicon-sunglasses"></span> {{ x.auth }}</font> <A HREF='https://cxsecurity.com/best/{{x.cc}}/'><IMG NG-SRC="{{ x.comCountry }}" SRC='' WIDTH="20" HEIGHT="12" ALT=""></A> <DIV style='word-wrap: break-word;'>{{ x.text }}</div><BR></span>
+  </div></div></div>
+<div class="col-xs-12 col-md-6"><div class="card border-success mb-3" style="max-width: 60rem;">
+<div class="card-body text-success">
+<h5 class="card-title"><span class="glyphicon glyphicon-thumbs-up"></span> Voted</H5>
+<span class="card-text" ng-repeat="x in x.vote  | orderBy:predicate:reverse"><A HREF='{{ x.url }}' style="text-decoration: none" TITLE='{{x.name}}'><B>{{ x.nameSh }}</B></A> <font color='#6B8E23'><B>+{{x.pos}}</B></font> <font color='#FF4500'><B>{{x.neg}}</B></font><BR></span>
+</div></div></div></div>
+<CENTER><H2><div ng-non-bindable><A HREF='https://cxsecurity.com/wlb/' TITLE='See bugtraq live' style="text-decoration: none;" ><span class="glyphicon glyphicon-fire"></span> Check the Bugtraq <span class="glyphicon glyphicon-fire"></span></A></H2></CENTER>
+<CENTER><TABLE WIDTH="100%" BORDER="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;" class="table table-striped table-sm table-hover"><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h5><U>2020-09-06</U></h5></font></center></Th>
+</TR></thead><tbody><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090032" title="Aplikasi Sistem Informasi Kelulusan - Bypass SQL Vulnerabilities" style="text-decoration: none;">Aplikasi Sistem Informasi Kelulusan - Bypass SQL Vulnerabilities<FONT color="silver"></FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Gh05t666nero/" style="text-decoration: none;">Gh05t666nero</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090031" title="Arknights Stored XSS" style="text-decoration: none;">Arknights Stored XSS<FONT color="silver"></FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Garuda+Security+Hacker/" style="text-decoration: none;">Garuda Security Hacker</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090030" title="Daily Tracker System - Reflected Cross Site Scripting (XSS)" style="text-decoration: none;">Daily Tracker System - Reflected Cross Site Scripting (XSS)<FONT color="silver"> CVE-2020-24194 </FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/hyd3sec/" style="text-decoration: none;">hyd3sec</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090029" title="rxd_admin - SQL Injection vulnerability" style="text-decoration: none;">rxd_admin - SQL Injection vulnerability<FONT color="silver"></FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/ERa/" style="text-decoration: none;">ERa</a></div>
+      </div></center></TD></TR></tbody><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h5><U>2020-09-05</U></h5></font></center></Th>
+</TR></thead><tbody><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090028" title="Stock Management System 1.0 - Authentication Bypass" style="text-decoration: none;">Stock Management System 1.0 - Authentication Bypass<FONT color="silver"> CVE-2020-24197 </FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/hyd3sec/" style="text-decoration: none;">hyd3sec</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090027" title="SymphonyCMS 3.0.0 Persistent Cross-Site Scripting" style="text-decoration: none;">SymphonyCMS 3.0.0 Persistent Cross-Site Scripting<FONT color="silver"></FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/SunCSR/" style="text-decoration: none;">SunCSR</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090026" title="Best Support System v3.0.4 - Authenticated Persistent XSS" style="text-decoration: none;">Best Support System v3.0.4 - Authenticated Persistent XSS<FONT color="silver"> CVE-2020-24963 </FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Ex.Mi/" style="text-decoration: none;">Ex.Mi</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090025" title="Nord VPN-6.31.13.0 nordvpn-service Unquoted Service Path" style="text-decoration: none;">Nord VPN-6.31.13.0 nordvpn-service Unquoted Service Path<FONT color="silver"></FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/chipo/" style="text-decoration: none;">chipo</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090024" title="Stock Management System 1.0 - Persistent Cross-Site Scripting (Brand Name)" style="text-decoration: none;">Stock Management System 1.0 - Persistent Cross-Site Scripting (Brand Name)<FONT color="silver"> CVE-2020-24198 </FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/hyd3sec/" style="text-decoration: none;">hyd3sec</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090023" title="Noise-Java ChaChaPolyCipherState.encryptWithAd() Insufficient Boundary Checks" style="text-decoration: none;">Noise-Java ChaChaPolyCipherState.encryptWithAd() Insufficient Boundary Checks<FONT color="silver"> Multiple CVE</FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Pietro+Oliva/" style="text-decoration: none;">Pietro Oliva</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090022" title="Noise-Java AESGCMFallbackCipherState.encryptWithAd() Insufficient Boundary Checks" style="text-decoration: none;">Noise-Java AESGCMFallbackCipherState.encryptWithAd() Insufficient Boundary Checks<FONT color="silver"> Multiple CVE</FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Pietro+Oliva/" style="text-decoration: none;">Pietro Oliva</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090021" title="Noise-Java AESGCMOnCtrCipherState.encryptWithAd() Insufficient Boundary Checks" style="text-decoration: none;">Noise-Java AESGCMOnCtrCipherState.encryptWithAd() Insufficient Boundary Checks<FONT color="silver"> Multiple CVE</FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Pietro+Oliva/" style="text-decoration: none;">Pietro Oliva</a></div>
+      </div></center></TD></TR><TR><TD width="9%" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="91%" align="left"><h6><div class="row"><div class="col-md-8"><A href="https://cxsecurity.com/issue/WLB-2020090020" title="Red Lion N-Tron 702-W / 702M12-W 2.0.26 XSS / CSRF / Shell" style="text-decoration: none;">Red Lion N-Tron 702-W / 702M12-W 2.0.26 XSS / CSRF / Shell<FONT color="silver"> Multiple CVE</FONT></A></div>
+        <div class="col-md-4" align="right" style="vertical-align:middle;"><A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/T.+Weber/" style="text-decoration: none;">T. Weber</a></div>
+      </div></center></TD></TR>
+</tbody></TABLE><CENTER><P><TABLE WIDTH="70%"><TR><TD>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5074670963595353"
+     data-ad-slot="8922474436"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></TD></TR></TABLE></CENTER>
+<A HREF='https://cxsecurity.com/cvemap/' ALT='See CVEMAP'  style="text-decoration: none;" ><h2><span class="glyphicon glyphicon-fire"></span> The latest CVEs <span class="glyphicon glyphicon-fire"></span></h2></A><CENTER><div ng-non-bindable><TABLE WIDTH="100%" BORDER="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;" class="table table-striped table-hover"></tbody><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h5><U>2020-09-05</U></h5></font></center></Th>
+</TR></thead><tbody><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-15709/" title="CVE-2020-15709" style="text-decoration: none;"><span class="label label-primary">CVE-2020-15709</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-15709/" title="Versions of add-apt-repository before 0.98.9.2, 0.96.24.32.14, 0.96.20.10, and 0.92.37.8ubuntu0.1~esm1, printed a PPA (personal package archive) description to the terminal as-is, which allowed PPA owners to provide ANSI terminal escapes to modify terminal contents in unexpected ways." style="text-decoration: none;"><font color="#D3D3D3">Versions of add-apt-repository before 0.98.9.2, 0.96.24.32.14, 0.96.20.10, and 0.92.37.8ubuntu0.1~esm1, printed a PPA (personal package archive) description to the terminal as-is, which allowed PPA owners to provide ANSI terminal escapes to modify terminal contents in unexpected ways.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR></tbody><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h5><U>2020-09-04</U></h5></font></center></Th>
+</TR></thead><tbody><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-24987/" title="CVE-2020-24987" style="text-decoration: none;"><span class="label label-primary">CVE-2020-24987</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-24987/" title="Tenda AC18 Router through V15.03.05.05_EN and through V15.03.05.19(6318) CN devices could cause a remote code execution due to incorrect authentication handling of vulnerable logincheck() function in /usr/lib/lua/ngx_authserver/ngx_wdas.lua file if the administrator UI Interface is set to &quot;radius&quot;." style="text-decoration: none;"><font color="#D3D3D3">Tenda AC18 Router through V15.03.05.05_EN and through V15.03.05.19(6318) CN devices could cause a remote code execution due to incorrect authentication handling of vulnerable logincheck() function in /usr/lib/lua/ngx_authserver/ngx_wdas.lua file if the administrator UI Interface is set to &quot;radius&quot;.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-24986/" title="CVE-2020-24986" style="text-decoration: none;"><span class="label label-primary">CVE-2020-24986</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-24986/" title="Concrete5 up to and including 8.5.2 allows Unrestricted Upload of File with Dangerous Type such as a .php file via File Manager. It is possible to modify site configuration to upload the PHP file and execute arbitrary commands." style="text-decoration: none;"><font color="#D3D3D3">Concrete5 up to and including 8.5.2 allows Unrestricted Upload of File with Dangerous Type such as a .php file via File Manager. It is possible to modify site configuration to upload the PHP file and execute arbitrary commands.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-24981/" title="CVE-2020-24981" style="text-decoration: none;"><span class="label label-primary">CVE-2020-24981</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-24981/" title="An Incorrect Access Control vulnerability exists in /ucms/chk.php in UCMS 1.4.8. This results in information leak via an error message caused by directly accessing the website built by UCMS." style="text-decoration: none;"><font color="#D3D3D3">An Incorrect Access Control vulnerability exists in /ucms/chk.php in UCMS 1.4.8. This results in information leak via an error message caused by directly accessing the website built by UCMS.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2019-20916/" title="CVE-2019-20916" style="text-decoration: none;"><span class="label label-primary">CVE-2019-20916</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2019-20916/" title="The pip package before 19.2 for Python allows Directory Traversal when a URL is given in an install command, because a Content-Disposition header can have ../ in a filename, as demonstrated by overwriting the /root/.ssh/authorized_keys file. This occurs in _download_http_url in _internal/download.py." style="text-decoration: none;"><font color="#D3D3D3">The pip package before 19.2 for Python allows Directory Traversal when a URL is given in an install command, because a Content-Disposition header can have ../ in a filename, as demonstrated by overwriting the /root/.ssh/authorized_keys file. This occurs in _download_http_url in _internal/download.py.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-24963/" title="CVE-2020-24963" style="text-decoration: none;"><span class="label label-primary">CVE-2020-24963</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-24963/" title="An Authenticated Persistent XSS vulnerability was discovered in the Best Support System, tested version v3.0.4." style="text-decoration: none;"><font color="#D3D3D3">An Authenticated Persistent XSS vulnerability was discovered in the Best Support System, tested version v3.0.4.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-7299/" title="CVE-2020-7299" style="text-decoration: none;"><span class="label label-primary">CVE-2020-7299</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-7299/" title="" style="text-decoration: none;"><font color="#D3D3D3"></font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-4702/" title="CVE-2020-4702" style="text-decoration: none;"><span class="label label-primary">CVE-2020-4702</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-4702/" title="IBM InfoSphere Information Server 11.7 is vulnerable to stored cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 187187." style="text-decoration: none;"><font color="#D3D3D3">IBM InfoSphere Information Server 11.7 is vulnerable to stored cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 187187.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-4632/" title="CVE-2020-4632" style="text-decoration: none;"><span class="label label-primary">CVE-2020-4632</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-4632/" title="IBM InfoSphere Metadata Asset Manager 11.7 is vulnerable to server-side request forgery. By sending a specially crafted request, a remote authenticated attacker could exploit this vulnerability to submit or control server requests. IBM X-Force ID: 185416." style="text-decoration: none;"><font color="#D3D3D3">IBM InfoSphere Metadata Asset Manager 11.7 is vulnerable to server-side request forgery. By sending a specially crafted request, a remote authenticated attacker could exploit this vulnerability to submit or control server requests. IBM X-Force ID: 185416.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TR><TD width="10%" align="justify" style="vertical-align:middle;">
+<CENTER><h5><A href="https://cxsecurity.com/cveshow/CVE-2020-4545/" title="CVE-2020-4545" style="text-decoration: none;"><span class="label label-primary">CVE-2020-4545</span></h5></CENTER></TD>
+<TD width="89%" align="justify" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/cveshow/CVE-2020-4545/" title="IBM Aspera Connect 3.9.9 could allow a remote attacker to execute arbitrary code on the system, caused by improper loading of Dynamic Link Libraries by the import feature. By persuading a victim to open a specially-crafted .DLL file, an attacker could exploit this vulnerability to execute arbitrary code on the system. IBM X-Force ID: 183190." style="text-decoration: none;"><font color="#D3D3D3">IBM Aspera Connect 3.9.9 could allow a remote attacker to execute arbitrary code on the system, caused by improper loading of Dynamic Link Libraries by the import feature. By persuading a victim to open a specially-crafted .DLL file, an attacker could exploit this vulnerability to execute arbitrary code on the system. IBM X-Force ID: 183190.</font></A></h6></TD><TD width="1%" align="justify"></TD></TR><TABLE WIDTH="70%"><TR><TD><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5074670963595353"
+     data-ad-slot="8922474436"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></TD></TR></TABLE></div></CENTER><A HREF='https://cxsecurity.com/dorks/' ALT='See google dorks'  style="text-decoration: none;" ><h2><span class="glyphicon glyphicon-flash"></span> Dorks <span class="glyphicon glyphicon-flash"></span></h2></A>
+<CENTER><TABLE WIDTH="100%" BORDER="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;" class="table table-striped table-hover"><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h6><U>2020-09-06</U></h6></font></center></Th>
+</TR></thead><tbody><TR><TD width="9%" align="justify" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="73%" align="left" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/issue/WLB-2020090032" title="Aplikasi Sistem Informasi Kelulusan - Bypass SQL Vulnerabilities" style="text-decoration: none;"><u>Aplikasi Sistem Informasi Kelulusan - Bypass SQL Vulnerabilities<FONT color="silver"></FONT></u><br><FONT color="#D1D0CE">inurl:/index.html intitle:Admin Tokol DistroIT</FONT></A></TD><TD width="18%" align="center" style="vertical-align:middle;">
+<A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Gh05t666nero/" style="text-decoration: none;"><b>Gh05t666nero</b></a></TD></TR></tbody><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h6><U>2020-09-05</U></h6></font></center></Th>
+</TR></thead><tbody><TR><TD width="9%" align="justify" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="73%" align="left" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/issue/WLB-2020090027" title="SymphonyCMS 3.0.0 Persistent Cross-Site Scripting" style="text-decoration: none;"><u>SymphonyCMS 3.0.0 Persistent Cross-Site Scripting<FONT color="silver"></FONT></u><br><FONT color="#D1D0CE">&quot;lepton cms&quot;</FONT></A></TD><TD width="18%" align="center" style="vertical-align:middle;">
+<A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/SunCSR/" style="text-decoration: none;"><b>SunCSR</b></a></TD></TR><TR><TD width="9%" align="justify" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-success">Low</span></CENTER></h6></TD>
+<TD width="73%" align="left" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/issue/WLB-2020090026" title="Best Support System v3.0.4 - Authenticated Persistent XSS" style="text-decoration: none;"><u>Best Support System v3.0.4 - Authenticated Persistent XSS<FONT color="silver">( CVE-2020-24963 )</FONT></u><br><FONT color="#D1D0CE">&quot;Powered By Best Support System&quot;</FONT></A></TD><TD width="18%" align="center" style="vertical-align:middle;">
+<A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Ex.Mi/" style="text-decoration: none;"><b>Ex.Mi</b></a></TD></TR></tbody><thead><TR><Th colspan='3'><center><font color='#E6E6E6'><h6><U>2020-09-04</U></h6></font></center></Th>
+</TR></thead><tbody><TR><TD width="9%" align="justify" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="73%" align="left" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/issue/WLB-2020090015" title="CANSNASHIK - SQL Injection vulnerability" style="text-decoration: none;"><u>CANSNASHIK - SQL Injection vulnerability<FONT color="silver"></FONT></u><br><FONT color="#D1D0CE">photo gallery.php?id=</FONT></A></TD><TD width="18%" align="center" style="vertical-align:middle;">
+<A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Mahdi+Karimi/" style="text-decoration: none;"><b>Mahdi Karimi</b></a></TD></TR><TR><TD width="9%" align="justify" style="vertical-align:middle;"><h6><CENTER>
+<span class="label label-warning">Med.</span></CENTER></h6></TD>
+<TD width="73%" align="left" style="vertical-align:middle;"><h6><A href="https://cxsecurity.com/issue/WLB-2020090014" title="SKYSTARTRAVELS - SQL Injection vulnerability" style="text-decoration: none;"><u>SKYSTARTRAVELS - SQL Injection vulnerability<FONT color="silver"></FONT></u><br><FONT color="#D1D0CE">photo gallery.php?id=</FONT></A></TD><TD width="18%" align="center" style="vertical-align:middle;">
+<A HREF="https://cxsecurity.com/search/author/DESC/AND/FIND/0/10/Mahdi+Karimi/" style="text-decoration: none;"><b>Mahdi Karimi</b></a></TD></TR></TABLE>
+<div class="wedll"><TABLE width='80%'><TR><TD>
+<div class="panel panel-default">
+<div class="panel-heading"><h5>Quick goto:</h5></div>
+<div class="panel-body"><CENTER>
+<h4><A HREF='https://cxsecurity.com/wlb/1/' style="text-decoration: none;" class="btn btn-lg btn-link">Bugtraq</A> 
+<A HREF='https://cxsecurity.com/cvemap/1/' style="text-decoration: none;" class="btn btn-lg btn-link">The latest CVEs</A>
+<A HREF='https://cxsecurity.com/dorks/1/' style="text-decoration: none;" class="btn btn-lg btn-link">Dorks</A>
+<div class="btn-group">
+<a href="https://cxsecurity.com/search/" class="btn btn-lg btn-link">Search</a>
+<a href="#" class="btn btn-lg btn-link dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://cxsecurity.com/search/">Bugtraq</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/search/cve/">CVEMAP</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/search/author/">By Author</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cve/">CVE Id</a></li>
+<li><a href="https://cxsecurity.com/cwe/">CWE Id</a></li>
+<li class="divider"></li>
+<li><a href="https://cxsecurity.com/cvevendors/A/">By vendors</a></li>
+<li><a href="https://cxsecurity.com/cveproducts/A/">By products</a></li>
+</ul></div>
+</h4></CENTER></div></div>
+</TD></TR></TABLE><p>
+<TABLE width='80%'><TR><TD>
+<div class="panel panel-default">
+<div class="panel-heading"><h5>Are you looking CVE for some product?</h5></div>
+<div class="panel-body"><CENTER>
+<br><B><h4>Top Vendors:</h4>
+<A HREF='https://cxsecurity.com/cvevendor/50/apple/' class="btn btn-link" TITLE='Apple Products'>Apple</A>
+<A HREF='https://cxsecurity.com/cvevendor/16/microsoft/' class="btn btn-link" TITLE='Microsoft Products'>Microsoft</A>
+<A HREF='https://cxsecurity.com/cvevendor/1351/google/' class="btn btn-link" TITLE='Google Products'>Google</A>
+<A HREF='https://cxsecurity.com/cvevendor/150/oracle/' class="btn btn-link" TITLE='Oracle Products'>Oracle</A>
+<A HREF='https://cxsecurity.com/cvevendor/38/apache/' class="btn btn-link" TITLE='Apache Products'>Apache</A>
+<A HREF='https://cxsecurity.com/cvevendor/8/ibm/' class="btn btn-link" TITLE='IBM Products'>IBM</A>
+<A HREF='https://cxsecurity.com/cvevendor/5/redhat/' class="btn btn-link" TITLE='Red Hat Products'>Red Hat</A>
+<A HREF='https://cxsecurity.com/cvevendor/7/hp/' class="btn btn-link" TITLE='HP Products'>HP</A>
+<A HREF='https://cxsecurity.com/cvevendor/58/adobe/' class="btn btn-link" TITLE='Adobe Products'>Adobe</A>
+<A HREF='https://cxsecurity.com/cvevendor/465/mozilla/' class="btn btn-link" TITLE='Mozilla Products'>Mozilla</A>
+<BR>&nbsp;<BR><A HREF='https://cxsecurity.com/cvevendors/' TITLE='CVE Vendors' class="btn btn-default btn-lg">Full List of Vendors</A><HR>
+<br><B><h4>Top Products:</h4></B><P><h6>
+<A HREF='https://cxsecurity.com/cveproduct/44/85/linux_kernel/' class="btn btn-link" TITLE='Linux Kernel CVE'>Linux Kernel</A>
+<A HREF='https://cxsecurity.com/cveproduct/50/221/mac_os_x/' class="btn btn-link" TITLE='Mac OS X CVE'>Mac OS X</A>
+<A HREF='https://cxsecurity.com/cveproduct/16/1085/windows_xp/' class="btn btn-link" TITLE='Windows XP CVE'>Windows XP</A>
+<A HREF='https://cxsecurity.com/cveproduct/16/27993/windows__31__30_/' class="btn btn-link" TITLE='Windows 10 CVE'>Windows 10</A>
+<A HREF='https://cxsecurity.com/cveproduct/58/1936/flash_player/' class="btn btn-link" TITLE='Adobe Flash Player CVE'>Flash Player</A>
+<A HREF='https://cxsecurity.com/cveproduct/58/596/acrobat_reader/' class="btn btn-link" TITLE='Adobe CVE'>Adobe Reader</A>
+<A HREF='https://cxsecurity.com/cveproduct/42/81/php/' class="btn btn-link" TITLE='PHP CVE'>PHP</A>
+<A HREF='https://cxsecurity.com/cveproduct/10/1531/jre/' class="btn btn-link" TITLE='JRE CVE'>JRE</A>
+<A HREF='https://cxsecurity.com/cveproduct/10/1043/jdk/' class="btn btn-link" TITLE='JDK CVE'>JDK</A>
+<BR>
+<A HREF='https://cxsecurity.com/cveproduct/2324/3929/wordpress/' class="btn btn-link" class="btn btn-link" TITLE='Wordpress CVE'>Wordpress</A>
+<A HREF='https://cxsecurity.com/cveproduct/3454/5895/joomla/' class="btn btn-link" TITLE='Joomla CVE'>Joomla</A>
+<A HREF='https://cxsecurity.com/cveproduct/1351/4057/chrome/' class="btn btn-link" TITLE='Chrome CVE'>Chrome</A>
+<A HREF='https://cxsecurity.com/cveproduct/16/9481/internet_explorer/' class="btn btn-link" TITLE='Internet Explorer CVE'>IE</A>
+<A HREF='https://cxsecurity.com/cveproduct/465/2728/firefox/' class="btn btn-link" TITLE='Firefox CVE'>Firefox</A>
+<A HREF='https://cxsecurity.com/cveproduct/50/2844/safari/' class="btn btn-link" TITLE='Safari CVE'>Safari</A>
+<A HREF='https://cxsecurity.com/cveproduct/38/72/http_server/' class="btn btn-link" TITLE='Apache HTTPD CVE'>HTTPD</A>
+<A HREF='https://cxsecurity.com/cveproduct/38/876/tomcat/' class="btn btn-link" TITLE='Tomcat CVE'>Tomcat</A>
+<A HREF='https://cxsecurity.com/cveproduct/10354/16273/nginx/' class="btn btn-link" TITLE='Nginx CVE'>Nginx</A><BR>&nbsp;<BR>
+<P><A HREF='https://cxsecurity.com/cveproducts/' class="btn btn-default btn-lg" TITLE='CVE Products'>Full List of Products</A></h6></p><HR>
+<p><h4><B>Top CWE:</B><h6>
+<A HREF='https://cxsecurity.com/cwe/CWE-89' class="btn btn-link" TITLE='CWE-89' style="text-decoration: none;"><B>CWE-89</B> (SQL Injection)</A>
+<A HREF='https://cxsecurity.com/cwe/CWE-79' class="btn btn-link" TITLE='CWE-79' style="text-decoration: none;"><B>CWE-79</B> (XSS)</A>
+<A HREF='https://cxsecurity.com/cwe/CWE-119' class="btn btn-link" TITLE='CWE-119' style="text-decoration: none;"><B>CWE-119</B> (Buffer Overflow)</A>
+<A HREF='https://cxsecurity.com/cwe/CWE-22' class="btn btn-link" TITLE='CWE-22' style="text-decoration: none;"><B>CWE-22</B> (Path Traversal)</A>
+<BR>&nbsp;<BR><A HREF='https://cxsecurity.com/allcwe/' TITLE='CVE Vendors' class="btn btn-default btn-lg">Check CWE Dictionary</A></h6><HR>
+</CENTER></p></div></div>
+<div class="panel panel-default">
+<div class="panel-heading"><h5>Donate:</h5></div>
+<div class="panel-body"><CENTER><h6><IMG SRC='https://cert.cx/cxstatic/images/12018/cxseci.png'> <div class="lead">is an open project developed and moderated fully by one independent person.</div> </h6><h5><div class="lead">Help develop the project and make</div><A HREF='https://cxsecurity.com/donate/'>Donations</A></h6></CENTER></div>
+</div>
+</TD></TR></TABLE></div><TABLE WIDTH="70%"><TR><TD><ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-5074670963595353"
+data-ad-slot="4483771634"
+data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</CENTER>
+</div></TD></TR></TABLE>
+
+
+<HR>
+Copyright <b>2020</b>, cxsecurity.com<P>&nbsp;
+    </TD>
+    <TD id='boki'></TD>
+    <TD width="6%"></TD>
+	</TR>
+</TABLE>
+<a href="#" class="back-to-top">Back to Top</a>
+    </DIV>
+    </DIV>
+</BODY>
+</HTML>
